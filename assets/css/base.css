@@ -1,0 +1,61 @@
+@import url('/assets/css/fonts.css');
+@import url('/assets/css/colors.css');
+
+body {
+	background-color: var(--border-color);
+	color: var(--foreground-color);
+	transition: 0.125s ease-in-out;
+	font-family: var(--font-family);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+.body-contents {
+	background-color: var(--background-color);
+	max-width: 80em;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+ul {
+	margin-top: -10px;
+}
+
+.footer {
+	border-top: 2px solid var(--foreground-color);
+	text-align: center;
+}
+
+a, a:link, a:visited {
+	text-decoration: none;
+	color: var(--accent-color);
+}
+
+a:hover {
+	color: var(--accent-color-active);
+}
+
+select {
+	background-color: var(--background-color);
+	color: var(--foreground-color);
+	padding: 5px;
+	border: 0px;
+	border-bottom: 1px solid var(--accent-color);
+	font-family: var(--font-family);
+}
+
+.header h1, .header h2, .header p {
+	display: inline;
+}
+
+.header {
+	border-bottom: 1px solid var(--foreground-color);
+}
+
+li {
+	list-style-type: none;
+	margin-left: 0px;
+	padding: 2px;
+}

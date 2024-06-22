@@ -1,0 +1,37 @@
+.ibm-pc {
+	--background-color: #000000;
+	--border-color: var(--background-color);
+	--foreground-color: #a4a4a4;
+
+	--accent-color: #765bff;
+	--accent-color-active: #dc75ff;
+	--font-family: "IBM VGA 8x16";
+}
+
+.c64 {
+	--background-color: #352879;
+	--border-color: #8a7fcd;
+	--foreground-color: var(--border-color);
+	--accent-color: #6ac1c8;
+	--accent-color-active: #cbd689;
+	--font-family: "Commodore Font";
+}
+
+.c128 {
+	--background-color: #505050;
+	--border-color: #b3ec91;
+	--foreground-color: var(--border-color);
+	--accent-color: #6ac1c8;
+	--accent-color-active: #cbd689;
+	--font-family: "Commodore Font";
+}
+
+.bbc-micro {
+	--background-color: #000000;
+	--border-color: var(--background-color);
+	--foreground-color: #ffffff;
+
+	--accent-color: #00e900;
+	--font-family: "Teletext";
+	--accent-color-active: #00dfdf;
+}
