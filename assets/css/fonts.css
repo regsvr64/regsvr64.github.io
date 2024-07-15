@@ -1,14 +1,9 @@
 @font-face {
-	font-family: "IBM VGA 8x16";
-	src: url('/assets/fonts/PxPlus_IBM_VGA_8x16.ttf');
+	font-family: "Montserrat";
+	src: url('/assets/fonts/Montserrat.ttf');
 }
 
 @font-face {
-	font-family: "Teletext";
-	src: url('/assets/fonts/MODE7GX3.TTF');
-}
-
-@font-face {
-	font-family: "Commodore Font";
-	src: url('/assets/fonts/C64_Pro-STYLE.ttf');
+	font-family: "MPLUS";
+	src: url('/assets/fonts/MPLUS.ttf');
 }
